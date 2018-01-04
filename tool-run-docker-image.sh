@@ -7,4 +7,4 @@ mvn package
 cp target/celerio-game-editor-admin-generated.jar docker/.
 cd docker
 docker-compose build db admin
-docker-compose up
+docker-compose up -d
