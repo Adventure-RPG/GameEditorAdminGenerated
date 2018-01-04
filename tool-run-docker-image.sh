@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 cd web
+npm install --save-dev  
 ng build --prod
 cp dist/* ../src/main/resources/static
 cd ..
