@@ -76,7 +76,7 @@
         <jdbc.version>42.1.4</jdbc.version>
 
         <jdbc.driver>org.postgresql.Driver</jdbc.driver>
-        <jdbc.url>jdbc:postgresql://db:5432/game</jdbc.url>
+        <jdbc.url>jdbc:postgresql://127.0.0.1:5432/game</jdbc.url>
         <jdbc.user>game</jdbc.user>
         <jdbc.password>game</jdbc.password>
         <jdbc.schema></jdbc.schema>
